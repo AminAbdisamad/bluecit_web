@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const FooterStyle = styled.footer`
 background:var(--primaryColor);
 padding:2rem 10rem;
+
 color:white;
 
 `
