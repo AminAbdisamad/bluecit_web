@@ -1,22 +1,15 @@
-import styled from 'styled-components'
-import {createGlobalStyle} from 'styled-components'
-
-
-
+import styled from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 export const PrimaryTheme = {
-    colors:{
-        header:"#ddd",
-        footer:"#dddd",
-        body:"#fff"
+  colors: {
+    header: "#ddd",
+    footer: "#dddd",
+    body: "#fff",
+  },
+};
 
-    }
-
-}
-
-export const DarkTheme = {
-
-}
+export const DarkTheme = {};
 
 export const GlobalStyles = createGlobalStyle`
 @font-face{
@@ -53,11 +46,10 @@ button {
     font-family: 'Roboto',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }`;
 
-
 export const MainContentStyles = styled.div`
   max-width: var(--maxWidth);
   margin: 0 auto;
-  padding: 2rem
+  padding: 2rem;
 `;
 
 // export const ContainerStyle = styled.div`
@@ -65,8 +57,6 @@ export const MainContentStyles = styled.div`
 // margin: 0 auto;
 // padding:0 1rem;
 // max-width: 100%;
-// ` 
+// `
 
-
-const name ="Ali"
-
+const name = "Ali";
